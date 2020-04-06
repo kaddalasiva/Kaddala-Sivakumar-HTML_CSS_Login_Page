@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+    </head>
+    <body>
+        <form class ="form" action = "/acton_page.php">
+            <div id="upperbar" class="top">
+                <img src = "epam_img.png" alt="cap" id = "image" class = "picture">
+                <h2 id = "title">Sign in</h2><button type = "button" id ="button" class = "cancelbutton">x
+                </button>
+            </div>
+            <div class="container">
+                <div class="email">
+                    <img src = "mail.png" class="email" alt="email_icon" id = "image" >
+                </div>
+                <div class="pass">
+                    <img src = "password.png" class="pass" alt="password_icon" id = "image" >
+                </div>
+                <input type = "text" placeholder="mail@example.com" name = "uname" required>
+                <input type = "password" placeholder="password" name = "pwd" required>
+                <button type="submit" class = "submit">SIGN IN</button>
+                <div class = "matter">
+                    <span class = "register"><a href = "#">Register!</a></span>
+                    <span class = "pws"><a href = "#">Forgot your password?</a></span>
+                </div>
+                <hr>
+                    <button type = "submit" class = "facebook"><img src = "fb_img.png" alt="fbook" id = "inner_photo" class = "photo"></button>
+                    <button type = "submit" class = "google"><img src = "google_img.png" alt="fbook" id = "inner_photo" class = "photo"></button>
+                    <button type = "submit" class = "epam">< EPAM LOGIN ></EPAM></button>
+                </hr>
+            </div>
+        </form>
+    </body>
+</html>
